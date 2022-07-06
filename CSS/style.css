@@ -1,16 +1,17 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-.banner{
+.banner {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgb(0,0,0,0.70),rgb(0,0,0,0.70)),url(/Images/donation0.jpg);
+  background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url(/Images/donation0.jpg);
   background-size: cover;
   background-position: center;
 }
-.content{
+.content {
   width: 100%;
   position: absolute;
   top: 50%;
@@ -18,31 +19,80 @@
   transform: translateY(-50%);
   color: white;
 }
-.content h1{
+.content h1 {
   font-size: 65px;
   margin-top: 10px;
 }
-.content p{
+.content p {
   font-size: 15px;
   line-height: 20px;
   margin-bottom: 30px;
 }
-a{
+a {
   text-decoration: none;
   color: white;
-  background-color: rgb(232, 53, 18);
+  background-color: rgb(243, 106, 79);
   padding: 16px 28px;
-  border-radius: 8px;
+  border-radius: 6px;
 }
-.content2{
+.content2 {
   width: 90%;
   margin: 80px auto;
   text-align: center;
 }
-.content2 h1{
+.content2 h1 {
   font-size: 40px;
+  margin-top: 45px;
+  padding-top: 25px;
 }
-.content2 p{
+.content2 p {
   color: darkgray;
+  padding-top: 20px;
+  margin-top: 25px;
 }
-
+.amount {
+  width: 100%;
+  text-align: center;
+  margin-left: 25%;
+}
+.amount ul {
+  display: flex;
+  font-size: 30px;
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+  display: flex;
+}
+.amount ul li {
+  height: 50px;
+  background-color: rgb(225, 219, 219);
+  padding: 25px 15px;
+  padding-top: 38px;
+  margin: 15px;
+  border-radius: 5px;
+}
+span {
+  /* background-color: rgb(241, 154, 122); */
+  color: rgb(238, 90, 36);
+  border: solid 1px rgb(241, 154, 122);
+}
+.another-section {
+  width: 100%;
+}
+.another-section input {
+  width: 60%;
+  padding: 17px 20px;
+  margin: 50px 0;
+  margin-left: 20%;
+  display: inline-block;
+  border-style: none;
+  border-bottom: 3px solid rgb(193, 183, 183);
+  border-radius: 2px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 20px;
+}
+.another-section a {
+  margin-left: 45%;
+  margin-top: 30px;
+}
