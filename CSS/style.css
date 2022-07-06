@@ -51,6 +51,7 @@ a {
   margin-top: 25px;
 }
 .amount {
+  height: 100px;
   width: 100%;
   text-align: center;
   margin-left: 25%;
@@ -59,8 +60,6 @@ a {
   display: flex;
   font-size: 30px;
   list-style-type: none;
-  text-align: center;
-  display: inline-block;
   display: flex;
 }
 .amount ul li {
@@ -72,9 +71,10 @@ a {
   border-radius: 5px;
 }
 span {
-  /* background-color: rgb(241, 154, 122); */
+  background-color: rgb(238, 90, 36);
+  height: 145px;
   color: rgb(238, 90, 36);
-  border: solid 1px rgb(241, 154, 122);
+  /* border: solid 3px rgb(241, 154, 122); */
 }
 .another-section {
   width: 100%;
@@ -82,7 +82,7 @@ span {
 .another-section input {
   width: 60%;
   padding: 17px 20px;
-  margin: 50px 0;
+  margin: 100px 0;
   margin-left: 20%;
   display: inline-block;
   border-style: none;
@@ -96,3 +96,79 @@ span {
   margin-left: 45%;
   margin-top: 30px;
 }
+
+.donate-plan{
+  width: 100%;
+  height: 100%;
+}
+.texts{
+  text-align: center;
+  padding: 60px;
+  margin: 60px;
+}
+.texts h1{
+  font-size: 45px;
+  padding-bottom: 30px ;
+}
+.texts p{
+  color: darkgray;
+}
+.three-part{
+  width: 100%;
+  height: 350px;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  padding: 25px;
+  margin: 25px;
+  
+}
+.three-part ul{
+  display: flex;
+  list-style: none;
+}
+.part-1{
+    height: 295px;
+    background-color: rgb(209, 230, 204);
+    text-align: center;
+    text-align: justify;
+    /* background-image: url(/Images/food.png); */
+    background-repeat: no-repeat;
+    text-align:center;
+    color: black;
+}
+.three-part ul img{
+  width: 50px;
+  height: 50px;
+  display: inline;
+  display: flex;
+
+}
+.part-2{
+  height: 295px;
+  background-color: rgb(232, 211, 208);
+  text-align: justify;
+  margin-left: 7px;
+}
+.part-3{
+  height: 295px;
+  background-color: rgb(243, 243, 211);
+  text-align: justify;
+  margin-left: 7px;
+}
+.extra-side{
+  display: flex;
+}
+.extra-section{
+  width: 35%;
+  text-align: center;
+  padding: 60px 100px;
+}
+.extra-section h1{
+  font-size: 45px;
+}
+.extra-side img{
+  width: 100%;
+
+}
+
