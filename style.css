@@ -169,11 +169,13 @@ span {
 }
 .extra-side img{
   width: 100%;
-
 }
-.testing{
-  width: 100%;
-  height: 150px;
-  background-color: darkmagenta;
+.extra-section
+.extra-side a{
+  background-color: rgb(243, 106, 79);
+  color: white;
+  padding: 16px 28px;
+  margin: 35px 0px;
+
 }
 
